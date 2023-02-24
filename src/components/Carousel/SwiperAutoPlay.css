@@ -1,0 +1,55 @@
+:root {
+  --primary-mujigrown: #66bab7;
+  --primary-mujigrown2: #0d5661;
+}
+
+.swiperbody {
+  position: relative;
+  height: 80vh;
+}
+.swiperbody {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-pagination-bullet {
+  background-color: deeppink;
+}
+.swiper-pagination-bullet-active {
+  background-color: deeppink !important;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-button-next::after {
+  display: none;
+}
+.swiper-button-prev::after {
+  display: none;
+}
+
+.swiper-button-next {
+  background-image:url('../../images/right.svg') ;
+  width: 40px !important;
+  height: 40px !important;
+}
+.swiper-button-prev {
+  background-image:url('../../images/left.svg') ;
+  width: 40px !important;
+  height: 40px !important;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
