@@ -4,12 +4,12 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="../../images/logo-muji.svg" alt="" />
+        <img src="/images/logo-muji.svg" alt="" />
       </a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <form class="d-flex inputBox">
           <button class="btn searchBox" type="submit">
-            <img src="../../images/zoom-in.svg" alt="" />
+            <img src="/images/zoom-in.svg" alt="" />
           </button>
           <input
             class="form-control"
@@ -22,7 +22,7 @@
       <div>
         <div>
           <a class="nav-link active lm" aria-current="page" href="#">
-            <img src="../../images/ser.png" class="imgbox" />
+            <img src="/images/ser.png" class="imgbox" />
             <p class="word imgbox m-0">客服</p>
           </a>
         </div>

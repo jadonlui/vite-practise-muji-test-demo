@@ -5,7 +5,7 @@
     <div class="container bigBox pt-5">
       <div class="row ">
         <div class="col-3">
-          <img src="../../images/logo-muji.svg" alt="" />
+          <img src="/images/logo-muji.svg" alt="" />
         </div>
         <div class="col-9 d-flex">
           <div class="box">
