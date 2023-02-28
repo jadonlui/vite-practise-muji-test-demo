@@ -26,21 +26,21 @@ const props = defineProps({
         >
           <div class="d-flex justify-content-between">
             <div>
-              <p>{{ props.one }}</p>
+              <h6>{{ props.one }}</h6>
             </div>
             <div class="imgBox">
               <!-- <img src="../../images/right.svg" /> -->
             </div>
           </div>
         </a>
-      
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li v-for="tt in props.two">
-              <a class="dropdown-item" href="#">
-                {{ tt }}
-              </a>
-            </li>
-          </ul>
+
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li v-for="tt in props.two">
+            <a class="dropdown-item" href="#">
+              <p>{{ tt }}</p>
+            </a>
+          </li>
+        </ul>
       </li>
     </div>
     <div v-else>

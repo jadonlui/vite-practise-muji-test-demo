@@ -7,7 +7,7 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import "jquery/dist/jquery.min.js";
 import "popper.js/dist/umd/popper.min.js";
 import "bootstrap/dist/css/bootstrap.css";
-
+import 'bootstrap-icons/font/bootstrap-icons';
 // import "bootstrap/dist/js/bootstrap.bundle.js";
 
 import bootstrap from "bootstrap/dist/js/bootstrap.min.js";

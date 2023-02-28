@@ -13,7 +13,12 @@ export function useImgsOne() {
   const imgsDatasInside = ref("");
   const imgsDatasShouse = ref("");
   const swiperDataImgs = ref("");
-
+  const imgsInterview = ref("");
+  imgsInterview.value = [
+    { imgSrc: "src/images/Facebook.avif", title: "Facebook" },
+    { imgSrc: "src/images/Instagram_1.webp", title: "Instagram" },
+    { imgSrc: "src/images/LINE.webp", title: "LINE" },
+  ];
   imgsDatas.value = [
     { imgSrc: "src/images/1.avif", title: "惜物季" },
     { imgSrc: "src/images/2.avif", title: "單寧褲" },
@@ -107,5 +112,6 @@ export function useImgsOne() {
     imgsDatasMan,
     imgsDatasShouse,
     swiperDataImgs,
+    imgsInterview,
   };
 }
