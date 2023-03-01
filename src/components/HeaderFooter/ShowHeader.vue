@@ -1,14 +1,16 @@
 <script setup></script>
 
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="/images/logo-muji.svg" alt="" />
-      </a>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <form class="d-flex inputBox">
-          <button class="btn searchBox" type="submit">
+  <div class="container-fuild mb-3 mt-3">
+    <div class="row">
+      <div class="col-2">
+        <a class="navbar-brand w-100 d-flex mt-3 justify-content-center" href="#">
+          <img src="/images/logo-muji.svg" alt="" class=""/>
+        </a>
+      </div>
+      <div class="col-9 mt-1">
+        <form class="d-flex">
+          <button class="btn " type="submit">
             <img src="/images/zoom-in.svg" alt="" />
           </button>
           <input
@@ -19,16 +21,14 @@
           />
         </form>
       </div>
-      <div>
-        <div>
-          <a class="nav-link active lm" aria-current="page" href="#">
-            <img src="/images/ser.png" class="imgbox" />
-            <p class="word imgbox m-0">客服</p>
-          </a>
-        </div>
+      <div class="col-1 mt-1">
+        <a class="nav-link active lm" aria-current="page" href="#">
+          <img src="/images/ser.png" class="imgbox" />
+          <p class="word imgbox m-0">客服</p>
+        </a>
       </div>
     </div>
-  </nav>
+  </div>
 </template>
 
 <style>
