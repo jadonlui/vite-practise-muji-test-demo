@@ -16,8 +16,8 @@ const modules = [Autoplay, Pagination, Navigation];
   <span style="font-size: 3em; color: Tomato">
     <i class="fa-solid fa-camera"></i>
   </span>
-  <div class="container mb-5">
-    <div class="row swiperbody">
+  <div class="mb-5 ">
+    <div class="swiperbody">
       <swiper
         :loop="true"
         :spaceBetween="30"
