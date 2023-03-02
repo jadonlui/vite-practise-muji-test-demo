@@ -21,7 +21,7 @@ const {
 </script>
 
 <template>
-  <div class="container">
+  <div class="container-fuild">
     <div class="row mb-4">
       <h3>特集</h3>
       <div class="col-3" v-for="oneImgData in imgsDatas">

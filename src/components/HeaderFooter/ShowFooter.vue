@@ -2,12 +2,12 @@
 
 <template>
   <div>
-    <div class="container bigBox pt-5">
+    <div class="container-fuild bigBox pt-5">
       <div class="row ">
-        <div class="col-3">
+        <div class="col-3 d-flex w-100 justify-content-center mb-5">
           <img src="/images/logo-muji.svg" alt="" />
         </div>
-        <div class="col-9 d-flex">
+        <div class="col-9 d-flex  w-100 justify-content-center ">
           <div class="box">
             <p>店舗情報</p>
             <p>門市服務</p>
@@ -32,7 +32,7 @@
           </div>
         </div>
       </div>
-      <p>台灣</p>
+      <p class="taiwanBox">台灣</p>
     </div>
   </div>
 </template>
@@ -42,10 +42,14 @@
     background-color:#f0f2f5; ;
 }
 .box {
+  margin-left: 1rem;
   width: 10rem;
   height: 10rem;
 }
-
+.taiwanBox{
+  margin-left: 1rem;
+  padding-bottom: 1rem;
+}
 @media screen and (max-width: 1400px) {
   .box {
     width: 20rem;

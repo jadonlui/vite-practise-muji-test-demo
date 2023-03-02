@@ -57,20 +57,61 @@ const props = defineProps({
 .dropdown-menu li:hover .sub-menu {
   visibility: visible;
 }
-.dropdown:hover .dropdown-menu {
-  display: block;
-  transform: translate(10rem, -2.5rem);
-}
-@media screen and (max-width: 1200px) {
+
+@media screen and (max-width: 2800px) {
   .dropdown:hover .dropdown-menu {
     display: block;
-    transform: translate(6rem, -2rem);
+    transform: translate(24rem, -2rem);
   }
 }
+@media screen and (max-width: 2500px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    transform: translate(17rem, -1.9rem);
+  }
+}
+@media screen and (max-width: 2300px){
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    transform: translate(10rem, -1.8rem);
+  }
+}
+
+
+@media screen and (max-width: 2000px){
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    transform: translate(9rem, -1rem);
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    transform: translate(7rem, -2rem);
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    transform: translate(7rem, -2rem);
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    transform: translate(6rem, -1.8rem);
+  }
+}
+
 @media screen and (max-width: 960px) {
   .dropdown:hover .dropdown-menu {
     display: block;
-    transform: translate(4rem, -2rem);
+    transform: translate(4rem, -1.7rem);
   }
 }
+
+
 </style>

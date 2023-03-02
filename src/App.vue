@@ -15,11 +15,11 @@ import ShowInterView from "./components/Show/ShowInterView.vue";
     </div>
   </div>
   <div class="container-fuild">
-    <div class="row">
+    <div class="row justify-content-around">
       <div class="col-2">
         <SideMain />
       </div>
-      <div class="col-10">
+      <div class="col-9 ">
         <SwiperAutoPlay />
         <ShowImges />
         <ShowInterView />
