@@ -7,6 +7,7 @@ import ShowFooter from "./components/HeaderFooter/ShowFooter.vue";
 import ShowInterView from "./components/Show/ShowInterView.vue";
 console.log('show')
 console.group('HI')
+console.log('showonw')
 </script>
 
 <template>
