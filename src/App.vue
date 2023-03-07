@@ -6,6 +6,7 @@ import ShowHeader from "./components/HeaderFooter/ShowHeader.vue";
 import ShowFooter from "./components/HeaderFooter/ShowFooter.vue";
 import ShowInterView from "./components/Show/ShowInterView.vue";
 console.log('show')
+console.group('HI')
 </script>
 
 <template>
